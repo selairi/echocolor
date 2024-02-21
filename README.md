@@ -39,7 +39,15 @@ Available colors:
 
 Examples:
 
-  echocolor -b -c red 'Error:' -r 'Syntax error'
+    echocolor -b -c red 'Error:' -r 'Syntax error'
 
-  echocolor '[' -b -c green 'OK' -r ']' 'Example' -b 'Hello world'
+    echocolor '[' -b -c green 'OK' -r ']' 'Example' -b 'Hello world'
+
+# Install
+
+    mkdir build
+    cd build
+    cmake ..
+    make
+    sudo make install
 
